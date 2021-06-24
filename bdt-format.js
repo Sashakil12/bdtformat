@@ -18,7 +18,7 @@ function bdtFormat(num) {
     str = num[i] + str;
   }
 
-  return `${str} ${tail && `.${tail}`}`;
+  return `${str}${tail && `.${tail}`}`;
 }
 
 module.exports = bdtFormat;

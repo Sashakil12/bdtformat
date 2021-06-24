@@ -1,7 +1,7 @@
 {
   "name": "@sashakil12/bdtformat",
-  "version": "0.0.1",
-  "description": "takes a number input and returns a string following bangladeshi monetary amount writing fashion used commonly in writing bank checks across bangladesh",
+  "version": "0.0.2",
+  "description": "Takes a number input and returns a string following bangladeshi monetary amount writing fashion used commonly in writing bank checks across bangladesh. Create money string, bangladeshi taka string formatting",
   "main": "index.js",
   "scripts": {
     "start": "index.js",
