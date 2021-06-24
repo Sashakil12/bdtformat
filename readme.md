@@ -4,7 +4,7 @@
 
 ### **Javascript _number_ to _money string_ generator according to Bangladeshi format**
 
-How to use:
+## How to use:
 
 ```
 const {bdtFormat} = require('@sashakil12/bdtformat')
