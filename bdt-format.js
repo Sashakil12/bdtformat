@@ -1,6 +1,12 @@
+
 function bdtFormat(num) {
   if (typeof num !== "number")
-    throw new Error("bdtformat: given argument id not a number!");
+    throw new Error("bdtformat: given argument is not a number!");
+    console.log(num)
+    if(num> Number.MAX_SAFE_INTEGER){
+      throw new Error("bdtformat: Provided number value is too big! I can handle upto 16 digits! Sorry!!");
+    }
+    
   num = num.toString();
   let str = "";
   let tail = "";

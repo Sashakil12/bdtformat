@@ -4,9 +4,12 @@
   "description": "Takes a number input and returns a string following bangladeshi monetary amount writing fashion used commonly in writing bank checks across bangladesh. Create money string, bangladeshi taka string formatting",
   "main": "index.js",
   "scripts": {
-    "start": "index.js",
-    "test": "echo \"No test specified\""
+    "start": "node index.js",
+    "test": "jest"
   },
   "author": "shorif ahamed shakil",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.5"
+  }
 }
