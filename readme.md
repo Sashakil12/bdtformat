@@ -9,7 +9,7 @@ How to use:
 ```
 const {bdtFormat} = require('@sashakil12/bdtformat')
 
-bdtFormat(152457899)
+bdtFormat(152457899) //15,24,57,899
 ```
 
 **Warning!**
