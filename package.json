@@ -1,0 +1,12 @@
+{
+  "name": "@sashakil12/bdtformat",
+  "version": "0.0.1",
+  "description": "takes a number input and returns a string following bangladeshi monetary amount writing fashion used commonly in writing bank checks across bangladesh",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "test": "echo \"No test specified\""
+  },
+  "author": "shorif ahamed shakil",
+  "license": "ISC"
+}
