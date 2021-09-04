@@ -54,6 +54,7 @@ describe('should give accurate money string results for',()=>{
         const thousands = 10000
         expect(bdtFormat(thousands)).toBe('10,000')
     })
+    
     test('lakhs ', ()=>{
         const lakhs = 100000
         expect(bdtFormat(lakhs)).toBe('1,00,000')
@@ -85,5 +86,12 @@ describe('should give accurate money string results for',()=>{
     test('1 lakh crore', ()=>{
         const num = 1000000000000
         expect(bdtFormat(num)).toBe('10,00,00,00,00,000')
+    })
+})
+
+describe("money string format should no start with a (,)", ()=>{
+    test('ten thousand', ()=>{
+        const thousands = 10000
+        expect(bdtFormat(thousands)).not.toBe(",10,000")
     })
 })

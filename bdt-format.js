@@ -23,7 +23,7 @@ function bdtFormat(num) {
     }
     str = num[i] + str;
   }
-
+  if(str.startsWith(',')) str.substr(1);
   return `${str}${tail && `.${tail}`}`;
 }
 
